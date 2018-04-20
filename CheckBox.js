@@ -1,13 +1,13 @@
 import React, {
-  Component,
-  PropTypes,
+  Component
 } from 'react';
-
+import PropTypes from 'prop-types';
 import {
   Text,
   View,
   StyleSheet,
 } from 'react-native';
+
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export default function CheckBox(props) {
